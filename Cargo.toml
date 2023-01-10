@@ -29,7 +29,6 @@ chrono = "0.4.19"
 fnv = "1.0.7"
 futures = "0.3.21"
 futures-timer = "3.0.2"
-ipfs-sqlite-block-store = "0.13.0"
 lazy_static = "1.4.0"
 libipld = { version = "0.14.0", default-features = false }
 libp2p-bitswap = "0.25.0"
@@ -45,6 +44,9 @@ tokio-crate = { package = "tokio", version = "1.17.0", features = ["rt"], option
 tracing = "0.1.32"
 trust-dns-resolver = "0.22.0"
 void = "1.0.2"
+
+[dependencies.ipfs-sqlite-block-store]
+git = "https://github.com/iohzrd/ipfs-sqlite-block-store"
 
 [dependencies.libp2p]
 version = "0.50.0"
